@@ -85,7 +85,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ## Additional Libraries
 
 - Bootstrap
-- stylesheets
+- Shoelace components
 - materialize - TBD
 
 ## Code Snippet
