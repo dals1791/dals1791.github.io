@@ -14,7 +14,7 @@
 
     <!-- *****************************BOOTSTRAP 5********************************** -->
     <!-- ************BOOTSTRAP 5 DOCS -> https://v5.getbootstrap.com/************** -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
       integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
@@ -29,7 +29,7 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
       integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
       crossorigin="anonymous"
-    ></script> -->
+    ></script>
     <!-- ***************************SHOELACE********************************** -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.esm.js"></script> -->
@@ -40,6 +40,135 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Sean Daly's Portfolio</h1>
+    <!-- <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
+    </div> -->
+    <nav class="navbar sticky-top navbar-dark bg-light">
+      <div class=" navigation container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 id="Name">Sean Daly</h1>
+            <h6>Brand Statement</h6>
+          </div>
+          <div class="col">
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="about-me" class="container-fluid text-center">
+      <h4 class="text-uppercase">About Me</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam expedita odio totam dolore consequuntur harum consectetur rerum necessitatibus asperiores maxime illo reprehenderit quas nulla id, nobis numquam quam ullam?</p>
+
+
+
+
+
+
+    </section>
+    <section id="skills" class="container-fluid text-center">
+      <h4 class="text-uppercase">Skills</h4>
+      <div class="row">
+        <div class="col-4">
+          <p>HTML5</p>
+        </div>
+        <div class="col-4">
+          <p>CSS3</p>
+        </div>
+        <div class="col-4">
+          <p>JavaScript</p>
+        </div>
+      <div class="row">
+        <div class="col-4 ">
+          <p>jQuery</p>
+        </div>
+        <div class="col-4">
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-4">
+          <p>Solidworks</p>
+        </div>
+      </div>
+      
+      </div>
+      
+      
+    </section>
+    <section id="projects" class="container-fluid text-center">
+      <h4 class="text-uppercase">Projects</h4>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+    </section>
+    <section id="contact" class="container-fluid text-center">
+      
+      <h6>{daly.se91@gmail.com}</h6>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input type="text" class="form-control"
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="formFileSm" class="form-label">Send any support docs</label>
+          <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Break it down to me.</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+
+
+      </form>
+
+
+    </section>
+    <footer class="container-fluid text-right">
+      <div class="row"></div>
+      <div class="col">
+        <h6>Sean Daly</h6>
+      </div>
+        <div class="col">
+      <h4 class="text-uppercase">Let's build the next great idea!</h4>
+    </div>
+    <div class="col">
+      <a class="d-block" href="https://www.linkedin.com/in/sean-daly-41455737/">LinkedIn</a> 
+      <a class="d-block" href="https://github.com/dals1791">Github</a>
+    </div>
+    </div>
+    </footer>
+
   </body>
 </html>
