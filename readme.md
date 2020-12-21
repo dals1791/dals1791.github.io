@@ -15,7 +15,7 @@
 
 ## Project Description
 
-This project will create my personal portfolio website which will be  used to showcase my work, my skills, and my passions. My portfolio will be built using HTML, CSS, and JavaScript/JQuery. My goal will be to provide a simple but responsive site with a relaxing visual themes. The design will be built ot be mobile first but will provide same experience on any screen.  
+This project will create my personal portfolio website which will be  used to showcase my work, my skills, and my passions. My portfolio will be built using HTML, CSS, and JavaScript/JQuery. My goal will be to provide a simple but responsive site with a relaxing visual themes. The design will be built to be mobile first but will provide same experience on any screen.  
 
 ## Google Sheet
 
@@ -32,12 +32,12 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ---
 ## Wireframes
  
-- [Mobile](hhttps://res.cloudinary.com/duzffhg65/image/upload/v1608510148/PXL_20201220_234648912_vk0hqd.jpg)
+- [Mobile](https://res.cloudinary.com/duzffhg65/image/upload/v1608510148/PXL_20201220_234648912_vk0hqd.jpg)
 
 - [Desktop](https://res.cloudinary.com/duzffhg65/image/upload/v1608510142/PXL_20201221_000914766_yygu5b.jpg)
 
 ## Time/Priority Matrix 
-[Link](hhttps://res.cloudinary.com/duzffhg65/image/upload/v1608520400/Time_Priority_Matrix_jumefi.pdf)
+[Time and Prioirty Matrix](https://res.cloudinary.com/duzffhg65/image/upload/v1608528242/Screen_Shot_2020-12-20_at_11.23.42_PM_wg95ms.png)
  
 #### MVP
 - Layout/Structure - Responsive Design, Mobile First
@@ -45,13 +45,15 @@ Link To Site  | One Thing I'd Like To Incorporate |
 	* Use CSS Grid, Flexbot
 
 - Pulls project data from API
-- Incorporates About, Porjects, and Contact form.
+- Incorporates About section, Projects section, and Contact form.
 - Hamburger Icon with JS dropdown functionality
 - Projects and project cards
 
 #### PostMVP 
 - Different color schemes, dark mode capability
 - Project Card transitions
+- Create additional projects
+- polish current projects
 
 ## Functional Components
 
@@ -59,33 +61,36 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
+| NavBar - Mobile | H | 1hr | hr |
+| Hamburger icon an drop down functionaility | H | 3hr | hr |
+| About me Section| H | 2hr | hr |  
+| Skills Section | H | 1hr|  hr | 
+| Skills Icons | L |1 hr| hr|
+| Projects Section| H | 3hr | hr|
+| Project cards | M | 3hr | hr|
 | Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Responsive | H | 5hr | hr | hr |
+| Total | H | 22hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Project Hover/animation | L | 3hr | -hr | hr |
+| dark mode | L | 3hr | hr |
+| black jack game using JS/web components| M | 4hr | hr |
+| Bootstrap Project | M | 4hr | -hr | hr |
+| Blog | L | 4hr | hr |
+| Other CSS Framework - TBD | VL | 4hr | hr |
+| Total | H | 22hrs| hrs |
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+
+- Bootstrap
+- stylesheets
+- materialize - TBD
+
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
+
+TBD
+
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+
+TBD
