@@ -4,10 +4,10 @@
 
 |  Day | Deliverable | Status
 |:----:|:---:|:---:|
-|Day 1| Project Description | Incomplete|
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete|
-|Day 1| Project Approval| Incomplete|
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete|
+|Day 1| Project Description | Complete|
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete|
+|Day 1| Project Approval| Complete|
+|Day 3| Core Application Structure (HTML, CSS, etc.) | In-Progress|
 |Day 4| MVP & Bug Fixes | Incomplete|
 |Day 5| Final Touches | Incomplete|
 |Until presentation| Create/polish projects| Incomplete|
@@ -64,31 +64,31 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| NavBar - Mobile | H | 1hr | hr |
-| Hamburger icon an drop down functionaility | H | 3hr | hr |
-| About me Section| H | 2hr | hr |  
-| Skills Section | H | 1hr|  hr | 
-| Skills Icons | L |1 hr| hr|
-| Projects Section| H | 3hr | hr|
-| Project cards | M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 5hr | hr | hr |
-| Total | H | 22hrs| hrs |
+| NavBar - Mobile | H | 1hr | 1hr |
+| Hamburger icon an drop down functionaility | H | 3hr |  2hr |
+| About me Section| H | 2hr | 0.5hr |  
+| Skills Section | H | 1hr|  0.5hr | 
+| Skills Icons | L |1 hr| 0hr|
+| Projects Section| H | 3hr | 0.5hr|
+| Project cards | M | 3hr | 0.5hr|
+| Cotact section|H|3hr| 1hr|
+| Working with API | H | 3hrs| 0 hr| 
+| Responsive | H | 5hr | hr | 0hr |
+| Total | H | 25hrs| 6hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover/animation | L | 3hr | -hr | hr |
-| dark mode | L | 3hr | hr |
-| black jack game using JS/web components| M | 4hr | hr |
-| Bootstrap Project | M | 4hr | -hr | hr |
-| Blog | L | 4hr | hr |
-| Other CSS Framework - TBD | VL | 4hr | hr |
-| Total | H | 22hrs| hrs |
+| Project Hover/animation | L | 3hr | 0 hr |
+| dark mode | L | 3hr | 0hr |
+| black jack game using JS/web components| M | 4hr | 0hr |
+| Bootstrap Project | M | 4hr | 0hr |
+| Blog | L | 4hr | 0hr |
+| Other CSS Framework - TBD | VL | 4hr | 0hr |
+| Total | H | 22hrs| 0hrs |
 ## Additional Libraries
 
 - Bootstrap
 - Shoelace components
-- materialize - TBD
 
 ## Code Snippet
 
