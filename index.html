@@ -42,8 +42,8 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-    <nav class="navbar container-fluid sticky-top navbar-dark bg-light">
+    <header class="sticky-top">
+    <nav class="navbar container-fluid navbar-dark bg-light">
         <div class="row">
           <div class="col navbar-brand bg-dark">
             
@@ -59,10 +59,12 @@
         </div>
     </nav>
     <!-- DROP DOWN MENU FROM HAMBURGER ICON -->
-    <div class="collapse" id="nav-menu">
+    <div class="collapse text-center" id="nav-menu">
       <div class="bg-dark p-4">
-        <h5 class="text-white h4">Collapsed content</h5>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
+        <a href="#about-me" class="text-white h4">About Me</a>
+        <a href="#skills" class="text-white h4">Skills</a>
+        <a href="#projects" class="text-white h4">Projects</a>
+        <a href="#contact" class="text-white h4">Contact</a>
       </div>
     </div>
   </header>
@@ -105,68 +107,73 @@
       <div class="card" style="width: auto;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Card JS Project</h5>
+          <p class="card-text">Read your future by drawing tarot cards</p>
+          <a href="#" class="btn btn-primary">App</a>
+          <a href="#" class="btn btn-primary">Code</a>
+          <a href="#" class="btn btn-primary">skills (create a popup with icons)</a>
         </div>
       </div>
       <div class="card" style="width: auto;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Flexbox/Grid Project</h5>
+          <p class="card-text">Startup matchmaker/layouts/new project</p>
+          <a href="#" class="btn btn-primary">Github</a>
+          <a href="#" class="btn btn-primary">code</a>
+          <a href="#" class="btn btn-primary">skills</a>
         </div>
       </div>
       <div class="card" style="width: auto;">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">TBD</h5>
+          <p class="card-text">TBD</p>
+          <a href="#" class="btn btn-primary">Github</a>
+          <a href="#" class="btn btn-primary">code</a>
+          <a href="#" class="btn btn-primary">skills</a>
         </div>
       </div>
 
 
     </section>
-    <section id="contact" class="container-fluid text-center collapse">
-      <h5>Let's make the next great thing together!</h5>
-      <h6>{daly.se91@gmail.com}</h6>
-      <form>
-        <div class="mb-3">
-          <label class="form-label">Name</label>
-          <input type="text" class="form-control">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="formFileSm" class="form-label">Send any support docs</label>
-          <input class="form-control form-control-sm" id="formFileSm" type="file">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Break it down to me.</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-
-
-
-      </form>
-
-
-    </section>
-    <footer class="container-fluid">
-      <div class="row">
+    
+    
+    <footer id="contact" class="container-fluid">
+      <div class="row text-center">
         <div class="col"></div>
-        <div class="col-6 text-center">
-          
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-up" data-bs-toggle="collapse" href="#contact" role="button" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
-            <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
-          </svg>
-        
-          <h6 class="text-uppercase">Send Me Your Ideas!</h6>
+        <div class="col-6 align-top">
+            <div class="row drpup">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="currentColor" class="bi bi-chevron-double-up dropdown-toggle" data-bs-toggle="dropdown" role="button" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z"/>
+              <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+            </svg>
+            <section id="contact-form" class="container-fluid text-center dropdown-menu">
+              <h5>Let's make the next great thing together!</h5>
+              <h6>{daly.se91@gmail.com}</h6>
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="formFileSm" class="form-label">Send any support docs</label>
+                  <input class="form-control form-control-sm" id="formFileSm" type="file">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Break it down to me.</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
+            </section>
+          </div>
+          <div class="row">
+            <h6 class="text-uppercase">Contact Me</h6>
+          </div>
         </div>
     
         <div class="col">
@@ -180,7 +187,7 @@
     </div>
     
     </footer>
-
+  
 
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
