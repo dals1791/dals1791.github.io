@@ -1,12 +1,38 @@
-button{
-  position: absolute;
-  right: 10px;
-  bottom: 30px;
-}
-.col-4{
+
+/* .col-4{
   border: 1px solid black;
-}
-section{
-  border:1px solid black;
+} */
+section.main{
+  /* border:1px solid black; */
   margin: 10px 0px;
+  padding: 30% 0% 0% 0%;
+}
+/* section.about-me{
+  padding: 30% 0;
+} */
+.card-links{
+  font-size: 1rem;
+  padding: .25rem .5rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  text-decoration: none;
+  color: white;
+}
+.skills-link{
+  justify-content: space-around;
+}
+.skills-dropup{
+  min-width: 20%;
+  background-color: teal;
+  
+  
+  
+}
+p.skills-dropup-txt{
+  margin: 0;
+  padding: 0;
+  color:#000000;
 }
