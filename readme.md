@@ -64,17 +64,17 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| NavBar - Mobile | H | 1hr | 1hr |
-| Hamburger icon an drop down functionaility | H | 3hr |  2hr |
+| NavBar - Mobile | H | 1hr | 2hr |
+| Hamburger icon an drop down functionaility | H | 3hr |  2.5hr |
 | About me Section| H | 2hr | 0.5hr |  
 | Skills Section | H | 1hr|  0.5hr | 
 | Skills Icons | L |1 hr| 0hr|
-| Projects Section| H | 3hr | 0.5hr|
-| Project cards | M | 3hr | 0.5hr|
-| Cotact section|H|3hr| 1hr|
-| Working with API | H | 3hrs| 0 hr| 
+| Projects Section| H | 3hr | 1hr|
+| Project cards | M | 3hr | 2hr|
+| Cotact section|H|3hr| 2hr|
+| Working with API | H | 3hrs| 2hr| 
 | Responsive | H | 5hr | hr | 0hr |
-| Total | H | 25hrs| 6hrs |
+| Total | H | 25hrs| 12.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
@@ -88,7 +88,6 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ## Additional Libraries
 
 - Bootstrap
-- Shoelace components
 
 ## Code Snippet
 
@@ -96,4 +95,6 @@ TBD
 
 ## Issues and Resolutions
 
-TBD
+- Issue: Bootstrap component JS not working
+	* Resolution: Bootstrap v5.0 style and JS links did not match links provided on Bootstrap Website. BootStrap v5.0 still in Beta. 
+- 
