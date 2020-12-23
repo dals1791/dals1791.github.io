@@ -65,7 +65,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | NavBar - Mobile | H | 1hr | 2hr |
-| Hamburger icon an drop down functionaility | H | 3hr |  2.5hr |
+| Hamburger icon an drop down functionality | H | 3hr |  3.5hr |
 | About me Section| H | 2hr | 0.5hr |  
 | Skills Section | H | 1hr|  0.5hr | 
 | Skills Icons | L |1 hr| 0hr|
@@ -74,14 +74,14 @@ Link To Site  | One Thing I'd Like To Incorporate |
 | Cotact section|H|3hr| 2hr|
 | Working with API | H | 3hrs| 2hr| 
 | Responsive | H | 5hr | hr | 0hr |
-| Total | H | 25hrs| 12.5hrs |
+| Total | H | 25hrs| 13.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover/animation | L | 3hr | 0 hr |
+| Project Card Hover/animation | L | 3hr | 0 hr |
 | dark mode | L | 3hr | 0hr |
 | black jack game using JS/web components| M | 4hr | 0hr |
-| Bootstrap Project | M | 4hr | 0hr |
+| Flexbox/Grid Project | M | 4hr | 0hr |
 | Blog | L | 4hr | 0hr |
 | Other CSS Framework - TBD | VL | 4hr | 0hr |
 | Total | H | 22hrs| 0hrs |
