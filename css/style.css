@@ -4,6 +4,10 @@ section.main{
   margin: 5% 0px;
   padding: 30% 0% 0% 0%;
 }
+.brandStatement {
+  font-size: 14px;
+
+}
 .card{
   margin: 5% 0% 0% 0%;
 }
@@ -29,6 +33,9 @@ p.skills-dropup-txt{
   margin: 0;
   padding: 0;
   color:#000000;
+}
+#contact{
+  height: 75px;
 }
 #contact-form{
 /* max-width: 75%; */
