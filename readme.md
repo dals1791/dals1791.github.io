@@ -97,4 +97,5 @@ TBD
 
 - Issue: Bootstrap component JS not working
 	* Resolution: Bootstrap v5.0 style and JS links did not match links provided on Bootstrap Website. BootStrap v5.0 still in Beta. 
-- 
+- Issue: Github pages not importing js files. 
+	* Resolution: Repo folder eas titled "JS" but index.HTML was trying to link through a folder "js". Removing the "JS" folder and pushing a new "js" folder to repo solved the issue. 
