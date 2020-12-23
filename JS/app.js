@@ -53,13 +53,28 @@ $. ajax("https://spreadsheets.google.com/feeds/list/1JQe3WnWfyv0d4VWgn05YJ9coxAw
 
 
 })
+//END OF AJAX CALL
+//////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////
-//Nav-bar hide on.click
+//NavMenu Items hide on.click
 //////////////////////////////
-        
+function hideNavMenuItems(){
+    const $navMenu__items = $(".navMenu__items").children()
 
+    for (let i=0; i<$navMenu__items.length; i+=1){
+        const $navLink = $navMenu__items;
+        $navLink.on("click", (event) => {
+            const $hamburgerIcon = $("#hamburger-icon")
+            const $navMenu = $("#nav-menu")
 
+            $hamburgerIcon.addClass("collapsed")
+            $hamburgerIcon.attr("aria-expanded", "false")
+            $navMenu.removeClass("show")
+        })
+    }
+}
+hideNavMenuItems()
 //////////////////////////////////////////////////
 
 
