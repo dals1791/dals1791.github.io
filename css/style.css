@@ -30,7 +30,8 @@ p.skills-dropup-txt{
   padding: 0;
   color:#000000;
 }
-/* #contact-form{
-min-width: 100%
+#contact-form{
+/* max-width: 75%; */
+padding: 15px
 
-} */
+}
