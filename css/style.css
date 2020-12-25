@@ -1,26 +1,85 @@
+/* --------------------------------------------------- */
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&family=Rokkitt&family=Space+Grotesk:wght@500&family=Staatliches&display=swap');
 
-section.main{
- 
-  margin: 5% 0px;
-  padding: 30% 0% 0% 0%;
+/* Color Scheme:
+greay-pruple: #ACADBC
+light purple: #9B9ECE
+purple: #6665DD
+dark purple: #473BF0
+black: #000500
+*/
+
+/* --------------------------------------------------- */
+/* Header */
+.navbar{
+  background-color: #000500;
+}
+.title{
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+  color: #ACADBC;
+  line-height: 1;
 }
 .brandStatement {
-  font-size: 14px;
+  font-size: 12px;
+  font-family: 'Space Grotesk', sans-serif; 
+}
+.navbar-toggler{
+  background-color: #473BF0;
+  }
+
+.nav-link{
+    color:  #ACADBC;
+    display: block;
+    font-family: 'Space Grotesk', sans-serif; 
+  }
+/* Main */
+section.main{
+  margin: 5% 0px;
+  padding: 20% 5% 10% 5%;
+  
+  
+}
+.section-title{
+  font-family: 'Nova Flat', cursive;
+}
+.text{
+  font-family: 'Rokkitt', serif;
+}
+#about-me{
+  background-color: #9B9ECE;
+  color:  #000500;
+  border-bottom: 3px solid;
+  
+}
+#skills{
+  border-bottom: 3px solid;
 
 }
+
+
+
+/* --------------------------------------------------- */
+/* Project Card Styling */
 .card{
   margin: 5% 0% 0% 0%;
+  background-color: #9B9ECE;
+  font-family: 'Rokkitt', serif;
+  border: 1px solid;
 }
 .card-links{
   font-size: 1rem;
-  padding: .25rem .25rem;
+  padding: .5rem .75rem;
   height: 100%;
   width: 100%;
   align-items: center;
   justify-content: center;
-  background: black;
+  border: 3px solid black;
+  border-radius: 5px;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .skills-link{
   justify-content: space-around;
@@ -38,7 +97,49 @@ p.skills-dropup-txt{
   height: 75px;
 }
 #contact-form{
-/* max-width: 75%; */
-padding: 15px
+padding: 15px;
+}
 
+
+/* --------------------------------------------------- */
+/* Styling for Skills Icons */
+.fab{
+font-size: 3em;
+
+
+}
+.brand-style{
+  font-family: 'Staatliches', cursive;
+  text-transform: uppercase;
+  font-weight: 200; 
+}
+.fa-html5{
+  color: orangered;
+}
+.fa-css3-alt{
+  color: #1D91FF;
+}
+.fa-js-square{
+  color: #FCDC03;
+}
+.fa-bootstrap{
+  color: #7D13F7;
+}
+/* --------------------------------------------------- */
+/* Footer */
+#contact{
+  background-color: #000500;
+}
+#contact-form{
+  background-color: #000500;  
+  color: #ACADBC;
+  
+
+}
+.contact-icon{
+  color: #473BF0;
+  text-decoration: none;
+}
+.contact-me{
+  color: #ACADBC;
 }

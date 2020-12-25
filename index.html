@@ -23,144 +23,77 @@
 
     <!-- ************************YOUR CODE**************************************** -->
     <script src="./js/components.js" defer></script>
-    <script src="./js/app.js" defer></script> //updated JS folder
+    <script src="./js/app.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
   </head>
   <body>
     <header>
-      <nav class="navbar container-fluid fixed-top bg-dark">
+      <nav class="navbar container-fluid fixed-top navbar-light">
       
-        <a id="Name" class="navbar-brand text-light" href="index.html">Sean Daly</br>
-          <span class="brandStatement text-light">
+        <a class="title" href="index.html">Sean Daly</br>
+          <span class="brandStatement">
             Developer and Engineer
           </span>
         </a>
       
-        <button id="#hamburger-icon" class="navbar-toggler bg-info navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="#hamburger-icon" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <!-- DROP DOWN MENU FROM HAMBURGER ICON -->
         <div class="navbar-collapse collapse text-center" id="nav-menu">
-          <div class="navMenu__items bg-dark navbar-nav nav">
-            <a href="#about-me" class="text-white nav-item nav-link h4">About Me</a>
-            <a href="#skills" class="text-white nav-item nav-link h4">Skills</a>
-            <a href="#projects" class="text-white nav-item nav-link h4">Projects</a>
-            <a href="#contact" class="text-white nav-item nav-link h4">Contact</a>
+          <div class="navMenu__items nav d-block">
+            <a href="#about-me" class="nav-item nav-link h5">About Me</a>
+            <a href="#skills" class="nav-item nav-link h5">Skills</a>
+            <a href="#projects" class="nav-item nav-link h5">Projects</a>
+            <a href="#contact" class="nav-item nav-link h5">Contact</a>
           </div>
         </div>
       </nav>
     </header>
-    <div id="main" class="container">
+    
       <!-- ABOUT ME SECTION ------------------------------------------------------------------>
-      <section id="about-me" class=" main container-fluid text-center">
-        <h4 class="text-uppercase">About Me</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam expedita odio totam dolore consequuntur harum consectetur rerum necessitatibus asperiores maxime illo reprehenderit quas nulla id, nobis numquam quam ullam?</p>
+      <section id="about-me" class="main container-fluid text-center">
+        <h2 class="text-uppercase section-title">About Me</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam expedita odio totam dolore consequuntur harum consectetur rerum necessitatibus asperiores maxime illo reprehenderit quas nulla id, nobis numquam quam ullam?</p>
       </section>
       <!-- SKILLS SECTION ------------------------------------------------------------------>
       <section id="skills" class=" main container-fluid text-center">
-        <h4 class="text-uppercase">Skills</h4>
+        <h2 class="text-uppercase section-title">Skills</h2>
         <div class="row">
           <div class="col-4">
-           <p>HTML5</p>
+            <i class="fab fa-html5"></i>
+            <p class="brand-style">HTML5</p>
           </div>
 
           <div class="col-4">
-          <p>CSS3</p>
+            
+            <i class="fab fa-css3-alt"></i>
+            <p class="brand-style">CSS3</p>
           </div>
 
           <div class="col-4">
-          <p>JavaScript</p>
+            <i class="fab fa-js-square"></i>
+            <p class="brand-style">Javascript</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-4 ">
-            <p>jQuery</p>
-          </div>
-
-          <div class="col-4">
-            <p>Bootstrap</p>
-          </div>
-          <div class="col-4">
-            <p>Solidworks</p>
-          </div>
+          
+            <i class="fab fa-bootstrap"></i>
+            <p class="brand-style">Bootstrap</p>
+          
         </div>
       </section>
       <!-- PROJECT SECTION ------------------------------------------------------------------>
-      <section id="projects" class="main container-fluid text-center">
-        <h4  class="text-uppercase">Projects</h4>
-        <!-- Project 1 -->
-        <div id="project1" class="card" style="width: auto;">
-          <img id="project1-img"  class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 id="project1-name" class="card-title">Card JS Project</h5>
-            <p id="project1-description" class="card-text">Read your future by drawing tarot cards</p>
-            <!-- Card-Links -->
-            <div class="row">
-              <div class="col-4">
-                <a id="project1-live" class="card-links d-flex">App</a>
-              </div>
-              <div class="col-4">
-                <a id="project1-github" class="card-links d-flex">Code</a>
-              </div>
-              <div class="col-4 dropup">
-                <button class="card-links d-flex skills-link " data-bs-toggle="dropdown" role="button"">
-                Skills
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-                </svg>
-              </button>
-                <!-- Skills DropUp -->
-                <div class="container-fluid skills-dropup dropdown-menu text-center bg-info">
-                 
-                  <p class="skills-dropup-txt">JS</p>
-                  <p class="skills-dropup-txt">JQUERY</p>
-                  <p class="skills-dropup-txt">HTML</p>
-                  <p class="skills-dropup-txt">CSS</p>
-                
-              </div>
-              </div>           
-            </div>
-          </div>
-        </div>
-        <!-- Project 2 -->
-        <div id="project2" class="card" style="width: auto;">
-          <img id="project2-img" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 id="project2-name" class="card-title">Flexbox/Grid Project</h5>
-            <p id="project2-description" class="card-text">Startup matchmaker/layouts/new project</p>
-            <div class="row">
-              <div class="col-4">
-                <a id="project2-live" class="card-links d-flex">App</a>
-              </div>
-              <div class="col-4">
-                <a id="project2-github" class="card-links d-flex">Code</a>
-              </div>
-              <div class="col-4 dropup">
-                <button class="card-links d-flex skills-link " data-bs-toggle="dropdown" role="button"">
-                Skills
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-                </svg>
-              </button>
-                <!-- Skills DropUp -->
-                <div class="container-fluid skills-dropup dropdown-menu text-center bg-info">
-                 
-                  <p class="skills-dropup-txt">JS</p>
-                  <p class="skills-dropup-txt">JQUERY</p>
-                  <p class="skills-dropup-txt">HTML</p>
-                  <p class="skills-dropup-txt">CSS</p>
-                
-              </div>
-              </div>           
-            </div>
-          </div>
-          </div>
-        </div>
+      <section id="projects" class="main container text-center">
+        <h2 class="text-uppercase section-title">Projects</h2>
+        
+
       </section>
-    </div>
     
-    <footer id="contact" class="container-fluid bg-dark">
+    
+    <footer id="contact" class="container-fluid">
         <div class="row dropup h-50 d-flex align-items-center">
           
           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="16" fill="#0dcaf0" class="bi bi-chevron-double-up dropdown-toggle" data-bs-toggle="dropdown" role="button" viewBox="0 0 16 16">
@@ -168,10 +101,10 @@
           <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
         </svg>
         <!-- CONTACT FORM W/ DROPUP FUNCTIONALITY -->
-        <section id="contact-form" class="container-fluid dropdown-menu  bg-dark text-light">
+        <section id="contact-form" class="container-fluid dropdown-menu">
           <h5>Let's make the next great thing!</h5>
           <h6>{daly.se91@gmail.com}</h6>
-          <form>
+          <form class="form-control-sm">
             <div class="mb-3">
               <label class="form-label">Name</label>
               <input type="text" class="form-control">
@@ -181,28 +114,25 @@
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-              <label for="formFileSm" class="form-label">Send any support docs</label>
-              <input class="form-control form-control-sm" id="formFileSm" type="file">
-            </div>
-            <div class="mb-1">
-              <label for="exampleFormControlTextarea1" class="form-label">Break it down to me.</label>
+              <label for="exampleFormControlTextarea1" class="form-label">Send me some details</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
             </div>
           </form>
         </section>
-      
+        
       
       </div>
-      <div class="row text-center h-auto">
+      <div class="row text-center h-auto align-items-center">
         <div class="col">
-          <a href="https://github.com/dals1791">Github</a>
+          <a href="github.com" class="fab fa-github fa-2x contact-icon"></a>
+          
         </div>
         <div class="col-6">
-          <h6 class="text-uppercase text-light">Contact Me</h6>
+          <h6 class="text-uppercase contact-me">Contact Me</h6>
           </div>
           <div class="col">
             
-           <a   href="https://www.linkedin.com/in/sean-daly-41455737/">LinkedIn</a>
+           <a   href="https://www.linkedin.com/in/sean-daly-41455737/" class="fab fa-linkedin fa-2x contact-icon"></a>
           </div>
         </div>
     
