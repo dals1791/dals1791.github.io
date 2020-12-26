@@ -11,9 +11,16 @@ black: #000500
 */
 
 /* --------------------------------------------------- */
+body{
+  max-width: 1024px;
+  margin: 0 auto;
+  border: 3px solid;
+  background-color: #000500;
+}
 /* Header */
 .navbar{
   background-color: #000500;
+  border-bottom: 3px solid #473BF0;
 }
 .title{
   font-family: 'Space Grotesk', sans-serif;
@@ -51,12 +58,17 @@ section.main{
 #about-me{
   background-color: #9B9ECE;
   color:  #000500;
-  border-bottom: 3px solid;
+  /* border-bottom: 3px solid #473BF0; */
   
 }
 #skills{
   border-bottom: 3px solid;
+  color: #ACADBC;
+  /* border-bottom: 3px solid #473BF0; */
 
+}
+#projects{
+  color: #ACADBC;
 }
 
 
@@ -67,7 +79,8 @@ section.main{
   margin: 5% 0% 0% 0%;
   background-color: #9B9ECE;
   font-family: 'Rokkitt', serif;
-  border: 1px solid;
+  border: 2px solid #9B9ECE;
+  color: black;
 }
 .card-links{
   font-size: 1rem;
@@ -80,24 +93,6 @@ section.main{
   border-radius: 5px;
   text-decoration: none;
   color: black;
-}
-.skills-link{
-  justify-content: space-around;
-}
-.skills-dropup{
-  min-width: 100%;
-  font-size: 1rem;
-}
-p.skills-dropup-txt{
-  margin: 0;
-  padding: 0;
-  color:#000000;
-}
-#contact{
-  height: 75px;
-}
-#contact-form{
-padding: 15px;
 }
 
 
@@ -133,13 +128,22 @@ font-size: 3em;
 #contact-form{
   background-color: #000500;  
   color: #ACADBC;
-  
-
+  padding: 15px;
 }
+
 .contact-icon{
   color: #473BF0;
   text-decoration: none;
 }
 .contact-me{
   color: #ACADBC;
+}
+
+/* MEDIA QUERIES */
+@include media-breakpoint-up(sm) { 
+
+  .text{
+    color: red;
+  }
+
 }
