@@ -47,7 +47,6 @@ section.main{
   margin: 5% 0px;
   padding: 20% 5% 10% 5%;
   
-  
 }
 .section-title{
   font-family: 'Nova Flat', cursive;
@@ -58,16 +57,9 @@ section.main{
 #about-me{
   background-color: #9B9ECE;
   color:  #000500;
-  /* border-bottom: 3px solid #473BF0; */
-  
-}
-#skills{
-  border-bottom: 3px solid;
-  color: #ACADBC;
-  /* border-bottom: 3px solid #473BF0; */
 
 }
-#projects{
+section{
   color: #ACADBC;
 }
 
@@ -100,7 +92,6 @@ section.main{
 /* Styling for Skills Icons */
 .fab{
 font-size: 3em;
-
 
 }
 .brand-style{
