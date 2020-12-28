@@ -7,8 +7,8 @@
 |Day 1| Project Description | Complete|
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete|
 |Day 1| Project Approval| Complete|
-|Day 3| Core Application Structure (HTML, CSS, etc.) | In-Progress|
-|Day 4| MVP & Bug Fixes | Incomplete|
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes |In-progress|
 |Day 5| Final Touches | Incomplete|
 |Until presentation| Create/polish projects| Incomplete|
 |04Jan2021| Present | Incomplete|
@@ -64,17 +64,17 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| NavBar - Mobile | H | 1hr | 2hr |
-| Hamburger icon an drop down functionality | H | 3hr |  3.5hr |
+| NavBar - Mobile | H | 1hr | 3hr |
+| Hamburger icon an drop down functionality | H | 3hr |  4hr |
 | About me Section| H | 2hr | 0.5hr |  
 | Skills Section | H | 1hr|  0.5hr | 
-| Skills Icons | L |1 hr| 0hr|
-| Projects Section| H | 3hr | 1hr|
+| Skills Icons | L |1 hr|0.5hr|
+| Projects Section| H | 3hr | 2hr|
 | Project cards | M | 3hr | 2hr|
-| Cotact section|H|3hr| 2hr|
-| Working with API | H | 3hrs| 2hr| 
-| Responsive | H | 5hr | hr | 0hr |
-| Total | H | 25hrs| 13.5hrs |
+| Contact section|H|3hr| 3hr|
+| Working with API | H | 3hrs| 3hr| 
+| Responsive | H | 5hr | 3hr | 
+| Total | H | 25hrs| 21.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
