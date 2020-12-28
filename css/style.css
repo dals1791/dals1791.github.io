@@ -19,34 +19,49 @@ body{
 }
 /* Header */
 .navbar{
-  
   background-color: #000500;
   border-bottom: 3px solid #473BF0;
 }
 .title{
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 22px;
+  font-size: 1.25em;
   text-decoration: none;
   color: #ACADBC;
-  line-height: 1;
+  
 }
 .brandStatement {
-  font-size: 12px;
+  font-size: .5em;
   font-family: 'Space Grotesk', sans-serif; 
 }
 .navbar-toggler{
   background-color: #473BF0;
-  }
+  font-size: 1rem;
+  margin: 2%;
+}
+#nav-menu{
+  border-top: 3px solid #473BF0;
+  justify-content: space-around;
+  text-align: center;
+}
+.navMenu__items{
+  font-size: 2em;
+  display: block;
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color:#473BF0;
+}
 
 .nav-link{
     color:  #ACADBC;
-    display: block;
     font-family: 'Space Grotesk', sans-serif; 
   }
 /* Main */
 section.main{
-  /* margin: 5% 0px; */
-  padding: 20% 5% 10% 5%;
+  
+  padding: 6rem 2rem 2rem 2rem;
   
 }
 .section-title{
@@ -70,7 +85,7 @@ section{
 /* --------------------------------------------------- */
 /* Project Card Styling */
 .project-cards{
-  max-width: 1024px;;
+  max-width: 1024px;
   margin: 0 auto;
   display: inline-block;
 }
@@ -132,6 +147,7 @@ font-size: 3em;
   background-color: #000500;  
   color: #ACADBC;
   padding: 15px;
+  border: 2px solid #473BF0;
 }
 
 .contact-icon{
@@ -141,17 +157,24 @@ font-size: 3em;
 .contact-me{
   color: #ACADBC;
 }
-
+/* --------------------------------------------------- */
 /* MEDIA QUERIES */
 @media (min-width:576px)  { 
   /* Header */
+  .navbar{
+    padding-bottom: 0;
+  }
   .title{
-    font-size: 4em;
+    font-size: 2.5em;
   }
-  .brandStatement{
-    font-size: .5em;
+  .navbar-toggler{
+    font-size: 2rem;
+    margin: 2%;
   }
-  
+  .nav-link{
+    margin: 2%;
+  }
+
   /* Sections/Main */
   .section-title{
     font-size: 3em;
@@ -172,16 +195,44 @@ font-size: 3em;
   }
   
 }
-@media (min-width:992px)
-{
-  .project-cards{
+@media (min-width:992px){
+
+.navbar{
+  justify-content: space-between;
+}
+#nav-menu{
+  border: none;
+  width: 50%;
+  
+}
+.navMenu__items{
+display: flex;
+flex-wrap: nowrap;
+width: 100%;
+padding: 0;
+justify-content: space-around;
+align-items: baseline;
+}
+.nav-link{
+  padding: 1%;
+  margin-bottom: 0;
+}
+section.main{
+  /* margin: 5% 0px; */
+  /* padding: 12% 5% 10% 5%; */
+  
+} 
+
+/* Proejct Cards ----------------- */
+.project-cards{
     display: flex;
     justify-content: space-around;
      
-  }
+}
   .card {
     width: 30vw;
-    height: 60vh
+    height: 50vh;
+    margin: 2%;
   }
   .card-img-top{
     object-fit: cover;
@@ -195,6 +246,7 @@ font-size: 3em;
   }
   .card-links{
     padding: .25em .5em;
+    font-size: 1.5em;
     
   }
 
