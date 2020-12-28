@@ -157,6 +157,15 @@ font-size: 3em;
 .contact-me{
   color: #ACADBC;
 }
+.submit{
+  background-color: #9B9ECE;
+  border: 1px solid #473BF0;
+  color: black
+}
+.submit:hover{
+  background-color: #473BF0;
+  color: black;
+}
 /* --------------------------------------------------- */
 /* MEDIA QUERIES */
 @media (min-width:576px)  { 

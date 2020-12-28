@@ -105,19 +105,21 @@
         <section id="contact-form" class="container-fluid dropdown-menu">
           <h5>Let's make the next great thing!</h5>
           <h6>[daly.se91@gmail.com]</h6>
-          <form class="form-control-sm">
+          <form action="https://formspree.io/f/mdopppgk"
+          method="POST" class="form-control-sm">
             <div class="mb-3">
               <label class="form-label">Name</label>
-              <input type="text" class="form-control">
+              <input type="text" name="name" class="form-control">
             </div>
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" name="email" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Send me some details</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+              <label for="message" class="form-label">Send me some details</label>
+              <textarea class="form-control" name="message" rows="2"></textarea>
             </div>
+            <button type="submit" class="btn btn-primary submit">Submit</button>
           </form>
         </section>
         
