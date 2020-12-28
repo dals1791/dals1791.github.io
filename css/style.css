@@ -19,6 +19,7 @@ body{
 }
 /* Header */
 .navbar{
+  
   background-color: #000500;
   border-bottom: 3px solid #473BF0;
 }
@@ -44,7 +45,7 @@ body{
   }
 /* Main */
 section.main{
-  margin: 5% 0px;
+  /* margin: 5% 0px; */
   padding: 20% 5% 10% 5%;
   
 }
@@ -59,6 +60,7 @@ section.main{
   color:  #000500;
 
 }
+
 section{
   color: #ACADBC;
 }
@@ -67,12 +69,22 @@ section{
 
 /* --------------------------------------------------- */
 /* Project Card Styling */
+.project-cards{
+  max-width: 1024px;;
+  margin: 0 auto;
+  display: inline-block;
+}
 .card{
-  margin: 5% 0% 0% 0%;
+  margin: 5% 0;
   background-color: #9B9ECE;
   font-family: 'Rokkitt', serif;
   border: 2px solid #9B9ECE;
   color: black;
+
+}
+.card-img-top{
+  height: 50vh;
+  object-fit: cover;
 }
 .card-links{
   font-size: 1rem;
@@ -131,10 +143,59 @@ font-size: 3em;
 }
 
 /* MEDIA QUERIES */
-@include media-breakpoint-up(sm) { 
-
-  .text{
-    color: red;
+@media (min-width:576px)  { 
+  /* Header */
+  .title{
+    font-size: 4em;
+  }
+  .brandStatement{
+    font-size: .5em;
+  }
+  
+  /* Sections/Main */
+  .section-title{
+    font-size: 3em;
+  }
+  p {
+    font-size: 2em;
+  }
+  /* Project Cards */
+  .card {
+    width: 50vw;
+  }
+  
+  .card-title{
+    font-size: 2em
+  }
+  .card-text{
+    font-size: 1em;
+  }
+  
+}
+@media (min-width:992px)
+{
+  .project-cards{
+    display: flex;
+    justify-content: space-around;
+     
+  }
+  .card {
+    width: 30vw;
+    height: 60vh
+  }
+  .card-img-top{
+    object-fit: cover;
+    height: 32vh;
+  }
+  .card-title{
+    font-size: 2em;
+  }
+  .card-text{
+    font-size: 1em
+  }
+  .card-links{
+    padding: .25em .5em;
+    
   }
 
 }

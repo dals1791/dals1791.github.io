@@ -45,15 +45,16 @@ class Card {
     render() {
         //Created outer div layer for card, assigns bootstrap class card to div
         const $cardDiv = $("<div>")
-        $cardDiv.addClass("card")
-        $cardDiv.css("width", "auto")
+        $cardDiv.addClass("card", "card-structure")
+        // $cardDiv.css("width", "auto")
         
         //creates img and assigns bootstrap class card-img-top and soruces the ajax img data
         const $img = $("<img>")
-        $img.addClass("card-img-top")
+        $img.addClass("card-img-top", "img-fluid")
         $img.attr("src", this.img)
+        // $img.css("height", "50vh").css("object-fit", "cover")
 
-        //creates the body of the card with bootstrap calss card-body
+        //creates the body of the card with bootstrap class card-body
         const $cardBodyDiv = $("<div>")
         $cardBodyDiv.addClass("card-body")
 
@@ -130,13 +131,14 @@ class Card {
 
 ////Creates the project card using a class "Card" and the AJAX array of data then appends it to specific index.html section
 function createCards(projects){
-    const $projectSection = $("#projects")
+    const $projectSection = $(".project-cards")
     projects.forEach((object)=>{
         let card = new Card(object)
         
         $projectSection.append(card.render())
     })
 }
+
 
 
 
