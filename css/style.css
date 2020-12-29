@@ -19,6 +19,8 @@ body{
 }
 /* Header */
 .navbar{
+  max-width: 1024px;
+  margin: 0 auto;
   background-color: #000500;
   border-bottom: 3px solid #473BF0;
 }
@@ -98,7 +100,7 @@ section{
 
 }
 .card-img-top{
-  height: 50vh;
+  height: 200px;
   object-fit: cover;
 }
 .card-links{
@@ -113,6 +115,7 @@ section{
   text-decoration: none;
   color: black;
 }
+
 
 
 /* --------------------------------------------------- */
@@ -149,7 +152,10 @@ font-size: 3em;
   padding: 15px;
   border: 2px solid #473BF0;
 }
-
+ footer svg {
+   height: 3em;
+ }
+ 
 .contact-icon{
   color: #473BF0;
   text-decoration: none;
@@ -187,6 +193,7 @@ font-size: 3em;
   /* Sections/Main */
   .section-title{
     font-size: 3em;
+    margin-top: 3%;
   }
   p {
     font-size: 2em;
@@ -204,10 +211,12 @@ font-size: 3em;
   }
   
 }
+/* Wide Screen (>992px) Media Query */
 @media (min-width:992px){
 
 .navbar{
   justify-content: space-between;
+  
 }
 #nav-menu{
   border: none;
@@ -226,11 +235,9 @@ align-items: baseline;
   padding: 1%;
   margin-bottom: 0;
 }
-section.main{
-  /* margin: 5% 0px; */
-  /* padding: 12% 5% 10% 5%; */
-  
-} 
+.section-title{
+  margin-top: 3%;
+}
 
 /* Proejct Cards ----------------- */
 .project-cards{
@@ -239,24 +246,28 @@ section.main{
      
 }
   .card {
-    width: 30vw;
-    height: 50vh;
+    width: 40vw;
+    height: 500px;
     margin: 2%;
   }
   .card-img-top{
     object-fit: cover;
-    height: 32vh;
+    height: 250px;
   }
   .card-title{
     font-size: 2em;
+    height: 80px;
   }
   .card-text{
-    font-size: 1em
+    font-size: 1em;
+    height: 80px;
   }
   .card-links{
     padding: .25em .5em;
     font-size: 1.5em;
     
   }
-
+.col{
+  align-self: flex-end;
+}
 }

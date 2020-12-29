@@ -24,7 +24,10 @@ $. ajax("https://spreadsheets.google.com/feeds/list/1JQe3WnWfyv0d4VWgn05YJ9coxAw
     
     createCards(projects)
 })
+.catch((data)=>{
+console.log("error")
 
+});
 //END OF AJAX CALL
 //////////////////////////////////////////////////////////////////////////
 
@@ -46,13 +49,14 @@ class Card {
         //Created outer div layer for card, assigns bootstrap class card to div
         const $cardDiv = $("<div>")
         $cardDiv.addClass("card", "card-structure")
-        // $cardDiv.css("width", "auto")
+        
         
         //creates img and assigns bootstrap class card-img-top and soruces the ajax img data
         const $img = $("<img>")
         $img.addClass("card-img-top", "img-fluid")
         $img.attr("src", this.img)
-        // $img.css("height", "50vh").css("object-fit", "cover")
+        console.log(this.img)
+        
 
         //creates the body of the card with bootstrap class card-body
         const $cardBodyDiv = $("<div>")
@@ -71,20 +75,20 @@ class Card {
         const row = $("<div>")
         row.addClass("row")
         const col1 = $("<div>")
-        col1.addClass("col-6")
+        col1.addClass("col")
         const col2 = $("<div>")
-        col2.addClass("col-6")
+        col2.addClass("col")
         
         
         const $liveLink = $("<a>")
         $liveLink.addClass("card-links", "d-flex", "text")
         $liveLink.html("App")
-        $liveLink.attr("href", this.live)
+        $liveLink.attr("href", this.live).attr("target", "_blank")
 
         const $githubLink = $("<a>")
         $githubLink.addClass("card-links", "d-flex", "text")
         $githubLink.html("Code")
-        $githubLink.attr("href", this.github)
+        $githubLink.attr("href", this.github).attr("target", "_blank")
 
         //Append items to html
         $cardDiv.append($img)
@@ -97,31 +101,6 @@ class Card {
         col1.append($liveLink)
         col2.append($githubLink)
          
-///js to create skill button - TBD 
-        // const $skillButton = $("<button>")
-        // $skillButton.addClass("card-links", "d-flex", "skills-link")
-        // $skillButton.html("Skills")
-        // $skillButton.attr("data-bs-toggle", "dropdown").attr("role", "button")
-
-        // const $skillImage = $(<svg>)
-       //HTML construct 
-        // <div class="col-4 dropup">
-        //         <button class="card-links d-flex skills-link " data-bs-toggle="dropdown" role="button"">
-        //         Skills
-        //         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
-        //         <path fill-rule="evenodd" d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-        //         </svg>
-        //       </button>
-        //         <!-- Skills DropUp -->
-        //         <div class="container-fluid skills-dropup dropdown-menu text-center bg-info">
-                 
-        //           <p class="skills-dropup-txt">JS</p>
-        //           <p class="skills-dropup-txt">JQUERY</p>
-        //           <p class="skills-dropup-txt">HTML</p>
-        //           <p class="skills-dropup-txt">CSS</p>
-                
-        //       </div>
-        //       </div> 
 
         return $cardDiv;
     }
