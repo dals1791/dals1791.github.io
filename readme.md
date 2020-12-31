@@ -8,8 +8,8 @@
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete|
 |Day 1| Project Approval| Complete|
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
-|Day 4| MVP & Bug Fixes |In-progress|
-|Day 5| Final Touches | Incomplete|
+|Day 4| MVP & Bug Fixes |Complete|
+|Day 5| Final Touches | Complete|
 |Until presentation| Create/polish projects| Incomplete|
 |04Jan2021| Present | Incomplete|
 
@@ -70,7 +70,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 | Skills Section | H | 1hr|  0.5hr | 
 | Skills Icons | L |1 hr|0.5hr|
 | Projects Section| H | 3hr | 2hr|
-| Project cards | M | 3hr | 2hr|
+| Project cards | M | 3hr | 3hr|
 | Contact section|H|3hr| 3hr|
 | Working with API | H | 3hrs| 3hr| 
 | Responsive | H | 5hr | 3hr | 
