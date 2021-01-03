@@ -149,6 +149,4 @@ hideNavMenuItems()
 
 
 
-/////////////////////////////
-//PULL DATA FROM BLOG FROM HEADLESS CSS
-///////////////////////
+
