@@ -10,8 +10,8 @@
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes |Complete|
 |Day 5| Final Touches | Complete|
-|Until presentation| Create/polish projects| Incomplete|
-|04Jan2021| Present | Incomplete|
+|Until presentation| Create/polish projects| Complete|
+|04Jan2021| Present | Complete|
 
 ## Project Description
 
@@ -80,19 +80,34 @@ Link To Site  | One Thing I'd Like To Incorporate |
 | --- | :---: |  :---: | :---: | 
 | Project Card Hover/animation | L | 3hr | 0 hr |
 | dark mode | L | 3hr | 0hr |
-| black jack game using JS/web components| M | 4hr | 0hr |
+| black jack game using JS/web components| M | 4hr | 10hr |
 | Flexbox/Grid Project | M | 4hr | 0hr |
 | Blog | L | 4hr | 0hr |
 | Other CSS Framework - TBD | VL | 4hr | 0hr |
-| Total | H | 22hrs| 0hrs |
+| Total | H | 22hrs| 10hrs |
 ## Additional Libraries
 
 - Bootstrap
 
 ## Code Snippet
+```
+function hideNavMenuItems(){
+    const $navMenu__items = $(".navMenu__items").children()
 
-TBD
+    for (let i=0; i<$navMenu__items.length; i+=1){
+        const $navLink = $navMenu__items;
+        $navLink.on("click", (event) => {
+            const $hamburgerIcon = $("#hamburger-icon")
+            const $navMenu = $("#nav-menu")
 
+            $hamburgerIcon.addClass("collapsed")
+            $hamburgerIcon.attr("aria-expanded", "false")
+            $navMenu.removeClass("show")
+        })
+    }
+}
+hideNavMenuItems()
+```
 ## Issues and Resolutions
 
 - Issue: Bootstrap component JS not working
